@@ -10,8 +10,7 @@ function sleep(ms) {
 }
 
 async function main() {
-  console.log(colors.bold.green('Welcome to the Chatbot Program!'));
-  console.log(colors.bold.green('You can start chatting with the bot.'));
+  console.log(colors.bold.green('Welcome, please enter a question to get a response from chatGPT'));
 
   const chatHistory = []; // Store conversation history
 
